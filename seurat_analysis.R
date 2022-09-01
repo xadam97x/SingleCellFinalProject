@@ -4,6 +4,20 @@ library(patchwork)
 library(dittoSeq)
 set.seed(2022)
 
+dir.create('sc_data')
+setwd("./sc_data")
+download.file('ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163558/suppl/GSE163558_RAW.tar',destfile = 'sc_data.tar')
+untar("sc_data.tar")
+for (i in c("PT1","PT2","PT3","NT1","P1","O1","LN1","LN2","Li1","Li2")){
+  files<-list.files(pattern=i)
+  dir.create(i)
+  for (j in files){
+    file.rename(j,paste(i,"/",j,sep=""))
+  }
+}
+setwd("..")
+
+
 
 pt1<-Read10X(data.dir = "sc_data/PT1")
 pt2<-Read10X(data.dir = "sc_data/PT2")
