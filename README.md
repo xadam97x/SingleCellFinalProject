@@ -2,7 +2,7 @@
 
 The final project for the Modeling of Complex Biological Systems 2022 course.
 The project includes single-cell RNA-seq analysis of gastric cancer samples - cell clustering, pseudo-time trajectory inference, copy number variation analysis, and cell-cell communication analysis. 
-Precise description in raport.pdf file.
+Precise description in [raport file](https://github.com/xadam97x/SingleCellFinalProject/blob/main/raport%20.pdf).
 
 
 # Required packages
