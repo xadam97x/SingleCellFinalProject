@@ -6,17 +6,17 @@ Precise description in raport.pdf file.
 
 
 # Required packages
-Seurat_4.1.1
-monocle3_1.2.9  
-AnnoProbe_0.1.6 
-ggalluvial_0.12.3 
-cowplot_1.1.1
-infercnv_1.13.0 
-CellChat_1.4.0
-patchwork_1.1.2
-dittoSeq_1.9.3 
-ggplot2_3.3.6
-dplyr_1.0.9
+Seurat_4.1.1  
+monocle3_1.2.9    
+AnnoProbe_0.1.6  
+ggalluvial_0.12.3   
+cowplot_1.1.1  
+infercnv_1.13.0   
+CellChat_1.4.0  
+patchwork_1.1.2  
+dittoSeq_1.9.3  
+ggplot2_3.3.6  
+dplyr_1.0.9  
 
 # Running the analysis
 
