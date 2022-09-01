@@ -5,7 +5,7 @@ The project includes single-cell RNA-seq analysis of gastric cancer samples - ce
 Precise description in raport.pdf file.
 
 
-# required packages
+# Required packages
 Seurat_4.1.1
 monocle3_1.2.9  
 AnnoProbe_0.1.6 
