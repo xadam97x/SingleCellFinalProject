@@ -87,6 +87,7 @@ gc()
 DefaultAssay(combined)<-"integrated"
 combined<-ScaleData(combined)
 combined<-RunPCA(combined)
+ElbowPlot(combined)
 combined<-RunTSNE(combined,dims = 1:20)
 combined<-FindNeighbors(combined,dims = 1:20)
 combined<-FindClusters(combined, resolution = 0.8)
